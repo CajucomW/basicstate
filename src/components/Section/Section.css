@@ -3,7 +3,7 @@
   margin-left: 15px;
   padding: 2px;
   display: grid;
-  background: #9da1aa;
+  background: url('https://i.imgur.com/yOKOe8z.jpg');
   border: 4px outset gray;
   grid-template-columns: 130px 1fr;
   grid-gap: 5px;

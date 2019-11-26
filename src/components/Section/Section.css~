@@ -1,4 +1,4 @@
-.Panel {
+.Section {
   font-family: sans-serif;
   margin-left: 15px;
   padding: 2px;
@@ -11,7 +11,7 @@
   margin-bottom: 20px;
 }
 
-.Panel-title {
+.Section-title {
   font-size: 20pt;
   font-weight: 200;
   grid-column: 1 / span 2;
@@ -19,11 +19,11 @@
   border: 4px outset gray;
 }
 
-.Panel img {
+.Section img {
   border: 4px outset gray;
 }
 
-.Panel-info {
+.Section-info {
   padding: 10px;
   border: 4px outset gray;
 }

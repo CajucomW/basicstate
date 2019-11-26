@@ -15,11 +15,11 @@ class App extends Component {
                 <div className="App-library">
                 
                     <Section title="Title Goes Here using props.title" />
-                    
+                    <br />
                     <Section title="Children">
                         <p>
-                            This example is accessible through this.props.children,
-                            which comes from App.js
+                            ...while this part was accessible through
+                            this.props.children, which comes from App.js
                         </p>
                     </Section>
                 </div>

@@ -18,7 +18,7 @@ class App extends Component {
                     
                     <Section title="Children">
                         <p>
-                            while this part was accessible through
+                            ...while this part was accessible through
                             this.props.children, which comes from App.js
                         </p>
                     </Section>
