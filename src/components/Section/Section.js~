@@ -1,18 +1,21 @@
 import React, {Component} from 'react';
-import './Panel.css';
+import './Section.css';
 
-class Panel extends Component {
+class Section extends Component {
     render() {
     console.log("----rendering page----");
         return (
-            <div className="Panel">
-                <h1 className="Panel-title">
+            <div className="Section">
+                <h1 className="Section-title">
                     {this.props.title}
                 </h1>
+                <p>
+                {this.props.children}
+                </p>
             </div>
         );
     }
 }
     
 
-export default Panel;
+export default Section;

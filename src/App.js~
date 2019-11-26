@@ -7,14 +7,23 @@ class App extends Component {
     console.log("----rendering page----");
         return (
             <div className="App">
+                
                 <h1 className="App-title">
                     State & Components
                 </h1>
                 
                 <div className="App-library">
-                    <Section title="Title Goes Here" />
+                
+                    <Section title="Title Goes Here using props.title" />
+                    
+                    <Section title="Children">
+                        <p>
+                            This example is accessible through this.props.children,
+                            which comes from App.js
+                        </p>
+                    </Section>
                 </div>
-            </div>
+             </div>
         );
     }
 }

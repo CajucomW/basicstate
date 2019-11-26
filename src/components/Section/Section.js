@@ -8,6 +8,7 @@ class Section extends Component {
             <div className="Section">
                 <h1 className="Section-title">
                     {this.props.title}
+                    {this.props.children}
                 </h1>
             </div>
         );
