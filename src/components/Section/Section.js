@@ -6,10 +6,11 @@ class Section extends Component {
     console.log("----rendering page----");
         return (
             <div className="Section">
-                <h1 className="Section-title">
+                <p className="Section-title">
                     {this.props.title}
+                    This part was accessible through the component file
                     {this.props.children}
-                </h1>
+                </p>
             </div>
         );
     }

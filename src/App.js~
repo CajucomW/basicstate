@@ -9,7 +9,7 @@ class App extends Component {
             <div className="App">
                 
                 <h1 className="App-title">
-                    State & Components
+                    React Components
                 </h1>
                 
                 <div className="App-library">

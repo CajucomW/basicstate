@@ -9,7 +9,7 @@ class App extends Component {
             <div className="App">
                 
                 <h1 className="App-title">
-                    State & Components
+                    React Components
                 </h1>
                 
                 <div className="App-library">
@@ -18,8 +18,8 @@ class App extends Component {
                     
                     <Section title="Children">
                         <p>
-                            This example is accessible through this.props.children,
-                            which comes from App.js
+                            while this part was accessible through
+                            this.props.children, which comes from App.js
                         </p>
                     </Section>
                 </div>
