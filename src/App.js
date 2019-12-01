@@ -14,19 +14,29 @@ class App extends Component {
                 
                 <div className="App-library">
                 
-                    <Section title="Title Goes Here using props.title" />
+                    <Section title="Title (hard-coded from App.js) is only visible
+                    when using this.props.title in Section.js" />
                     
-                    <Section title="Children">
+                    <Section title="Children (hard-coded from App.js)">
                         <p>
-                            ...while this part was accessible through
-                            this.props.children, which comes from App.js
+                            ... while this content, which is written in App.js, is 
+                            only visible when using this.props.children
+                            in Section.js
                         </p>
                     </Section>
+                    
+                    <Section />
+                    
+                    <h2>
+                        All the contents above are only available in App.js
+                        when using child component of 'Section' in Component
+                        directory
+                    </h2>
+                    
                 </div>
              </div>
         );
     }
 }
     
-
 export default App;
