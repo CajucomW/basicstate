@@ -15,13 +15,13 @@ class App extends Component {
                 <div className="App-library">
                 
                     <Section title="Title (hard-coded from App.js) is only visible
-                    when using this.props.title in Section.js" />
+                    when using <strong>this.props.title</strong> in Section.js" />
                     
-                    <Section title="Children (hard-coded from App.js)">
+                    <Section>
                         <p>
                             ... while this content, which is written in App.js, is 
-                            only visible when using this.props.children
-                            in Section.js
+                            only visible when using <strong>this.props.children
+                            </strong> in Section.js
                         </p>
                     </Section>
                     
@@ -30,8 +30,11 @@ class App extends Component {
                     <h2>
                         All the contents above are only available in App.js
                         when using child component of 'Section' in Component
-                        directory
+                        directory.
                     </h2>
+                    <p>
+                        "Parents give children PROPS"
+                    </p>
                     
                 </div>
              </div>

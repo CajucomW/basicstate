@@ -7,10 +7,23 @@ class Section extends Component {
         return (
             <div className="Section">
                 <p className="Section-title">
-                    {this.props.title} 
-                    <br />
-                    <br />
-                    while this part was written in Section.js
+                    {
+                        this.props.title ? (
+                            <p>
+                                {this.props.title}
+                                <br />
+                                <br />
+                                while this part was written in Section.js
+                            </p>
+                            ):(
+                                <p>
+                                    used ternary operator, or "IF" statement
+                                    to show this when there isn't a <strong>
+                                    title</strong> prop in the component.
+                                </p>
+                            )
+                        }
+                    
                 </p>
                 
                 <p className="Section-title">

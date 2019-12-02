@@ -7,9 +7,19 @@ class Section extends Component {
         return (
             <div className="Section">
                 <p className="Section-title">
-                    <br />
-                    <br />
-                    while this part was written in Section.js
+                    {
+                        this.props.title ? (
+                            <p>
+                                {this.props.title}
+                                <br />
+                                <br />
+                                while this part was written in Section.js
+                            </p>
+                            ):(
+                                null
+                            )
+                        }
+                    
                 </p>
                 
                 <p className="Section-title">
