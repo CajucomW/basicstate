@@ -30,8 +30,11 @@ class App extends Component {
                     <h2>
                         All the contents above are only available in App.js
                         when using child component of 'Section' in Component
-                        directory
+                        directory.
                     </h2>
+                    <p>
+                        "Parents give children PROPS"
+                    </p>
                     
                 </div>
              </div>

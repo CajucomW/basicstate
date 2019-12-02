@@ -28,8 +28,9 @@ class App extends Component {
                     <Section />
                     
                     <h2>
-                        All the contents above are only available through App.js
-                        when child component of 'Section' in Component directory
+                        All the contents above are only available in App.js
+                        when using child component of 'Section' in Component
+                        directory
                     </h2>
                     
                 </div>
