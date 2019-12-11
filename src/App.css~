@@ -1,6 +1,6 @@
 body {
   min-height: 100vh;
-  background: url('https://i.imgur.com/yOKOe8z.jpg');
+  background: url('https://i.imgur.com/ofOCDFe.jpg');
   background-position:center;
   background-repeat:no-repeat;
   background-size: cover;
